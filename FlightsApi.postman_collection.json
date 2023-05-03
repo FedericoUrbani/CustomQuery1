@@ -1,0 +1,49 @@
+{
+	"info": {
+		"_postman_id": "fc4b48e6-c371-4b34-b0f5-03aaf0dd002c",
+		"name": "FlightsApi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23018916"
+	},
+	"item": [
+		{
+			"name": "GetCreateAllFlights",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/flights",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"flights"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetFindallFlights",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/flights/findall",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"flights",
+						"findall"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
